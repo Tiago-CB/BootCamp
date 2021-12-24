@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(171, 219, 241) ;
+  font-family: Verdana;
+  padding: 10px 20px 20px 20px;
+  margin: auto;
+}
+
+.fullpage {
+  background-color:rgb(136, 206, 247);
+   padding: 10px 10px 10px 10px; 
+   
+   border-left: 20px solid  rgb(31,140, 131);
+   border-top: 15px solid  rgb(31, 160, 131);
+   border-right: 1px solid  rgb(31, 130, 131);
+   border-bottom: 1px solid  rgb(31, 110, 131);
+   border-radius: 0% 0% 0% 0%;
+}
+
+
+
+
+/*seção de titulos*/
+
+#title {
+  background-color:white ;
+  border-top: 1px solid  rgb(31, 50, 131);
+  border-left: 1px solid rgb(31, 80, 131);
+  border-bottom: 10px solid rgb(31, 50, 131);
+  border-right: 10px solid rgb(31, 70, 131);
+}
+
+#cont{
+  padding-left: 300px;
+}
+
+.cont1, .cont2, .cont3{
+  background-color: rgb(31, 100, 131);
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  border-top: 1px solid rgb(31, 100, 131);
+  border-right: 10px solid rgb(31, 140, 131);
+  border-bottom: 5px solid rgb(31, 150, 131);
+  border-left: 1px solid rgb(31, 100, 131);
+  
+}
+a{
+  color: white;
+}
+
+.subtitle {
+  background-color:rgb(136, 206, 247) ;
+  border-top: 1px solid  rgb(31, 50, 131);
+  border-left: 1px solid rgb(31, 80, 131);
+  border-bottom: 10px solid rgb(31, 50, 131);
+  border-right: 10px solid rgb(31, 70, 131);
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+
+
+.home, .serviços, .contatos {
+  background-color: rgb(31, 100, 131);
+  border-top: 1px solid rgb(31, 100, 131);
+  border-right: 10px solid rgb(31, 140, 131);
+  border-bottom: 5px solid rgb(31, 150, 131);
+  border-left: 1px solid rgb(31, 100, 131);
+  padding: 3px 8px 1px 8px;
+  font-size: 22px ;
+  color: white;
+ 
+}
+
+
+
+
+/*seção de postagens*/
+
+.post_title {
+   color:rgb(20, 19, 19);
+   padding-bottom: 0px;
+   font-size: 28px;
+}
+
+
+/*primeira postagem*/
+
+.post {
+  
+  padding: 1px 20px 1px 0px; 
+  
+  border-left: 20px solid  rgb(240, 189, 12);
+  border-top: 15px solid  rgb(240, 149, 12);
+  border-right: 1px solid  rgba(240, 149, 12, 0.459);
+  border-bottom: 1px solid  rgb(240, 149, 12);
+  font-style: italic;
+  font-size: 20px;
+  
+}
+
+
+.im{
+  border-top: 2px solid rgb(0, 0, 139);
+  border-right: 20px solid rgb(0, 80, 139);
+  border-bottom: 15px solid rgb(0, 0, 139);
+  border-left: 2px solid rgb(0, 0, 139);
+  width: 100%;
+}
+
+
+/*segunda postagem*/
+
+.imagem {
+
+  border-right: 10px solid black;
+  border-bottom: 7px solid black;
+  border-radius: 5px;
+  width: 300px;
+  margin:auto;
+}
+
+
+.descimg{
+  font-size: 12px;
+  padding-left: 12px;
+}
+
+
+/*seção rodape*/
+
+#rodape { 
+  background-color: lightblue;
+  border-top: 1px solid  rgb(31, 50, 131);
+  border-left: 1px solid rgb(31, 80, 131);
+  border-bottom: 15px solid rgb(31, 50, 131);
+  border-right: 20px solid rgb(31, 70, 131);  
+  padding: 5px 0px 0px 0px;
+  font-size: 12px;
+}
+
+
+.titulorodape{
+  text-align: center;
+}
+
+
+.lno {
+  list-style-type: lower-alpha;
+}
+
+
+.lo{
+  list-style-type: upper-roman;
+}
