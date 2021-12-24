@@ -1,92 +1,94 @@
-
 body{
-   background-color: rgb(199, 199, 255);
-   width: 100%;
+   background-color: gray;
 }
+
+/* Barra de titulo*/
+
 .navbar{
    background-color: rgb(109, 167, 243);
    width: 100%;
 }
 
-#pi{
+
+
+#nav01, #navbarDropdown {
+color: white;
+text-shadow: black 0.1em 0.1em 0.2em;
+font-size: 30px;
+}
+
+#barranav{
 width: 80px;
 }
-#pagina{
-}
+
+
+/* Escorpo do documento */
+
 #escorpo{
-   background-color: blue;
- 
+background-image: url("img/BANNERgamer02.jpg" ) ;
+background-repeat: no-repeat;
+background-size: 100%;
+margin-top: 0px;
+ padding-bottom: 300px;
 }
-}
+
 #menul{
    margin-right: 1px;
    padding: 0px;
-   width: 900px;
+  
 }
-#primeiro{
- background-color: aqua;
- font-size: 20px;
- width: 450px;
- padding-bottom: 100px;
- margin-bottom: 0px;
- margin-top: 0px;
-}
-#segundo{
-   background-color: rgb(56, 56, 245);
-   font-size: 20px;
-   width: 450px;
-   padding-bottom: 100px;
-   margin-bottom: 0px;   
-}
-#terc{
-   background-color: lawngreen;
-   font-size: 20px;
-   width: 450px;
-   padding-bottom: 100px;
-   margin-bottom: 0px;
-}
-#quarto{
-   background-color: aqua;
-   font-size: 20px;
-   width: 450px;
-   padding-bottom: 40px;
-   margin-bottom: 0px;
-}
-#quinto{
-   background-color: rgb(123, 229, 248);
-   font-size: 16px;
-   width: 450px;
-   padding-top: 20px;
-   padding-bottom: 40px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   border-radius: 50%;
-   text-align: center;
-   height: 50px;
 
-}
 #titulo1{
-   background-color: brown;
+   background-color: blue;
    font-style: italic;
-   color: antiquewhite;
+   font-size: 56px;
+   color: rgb(59, 189, 240);
+   text-shadow: black 0.1em 0.1em 0.2em;
    padding: 10px;
    margin-bottom: 0px;
    margin-top: 0px;
    width: 100%;
-   align-items: top;
-}
-#quemsomos{
-   margin-left: 1px;
+   align-items: center;
 }
 
-#placa{
-   margin-top: 0px;
-   width: 100%;
-}
-#memo, #pmae, #placa{
-   margin-top: 0px;
+h2{
+   color: beige;
+   font-style: italic;
+   font-size: 40px;
+   text-shadow: black 0.1em 0.1em 0.2em;
    margin-bottom: 0px;
-   margin-right: 0px;
-   padding-right: 0px;
-   width: 100%;
+}
+
+.lista1{
+   color: beige;
+   font-style: italic;
+   font-size: 30px;
+   text-shadow: black 0.1em 0.1em 0.2em;
+   padding: 10px 40px 40px 40px;
+}
+
+.fpag{
+   color: beige;
+   font-style: italic;
+   font-size: 30px;
+   text-shadow: black 0.1em 0.1em 0.2em;
+   margin-bottom: 0px;
+   
+}
+
+
+/* Rodapé */
+
+
+#footer{
+   background-color: gray;
+   margin-left: 20px;
+   margin-bottom: 0px;
+   color: aliceblue;
+   font-size: large;
+}
+
+
+#ender{
+   float: left;
 }
