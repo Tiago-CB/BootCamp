@@ -1,5 +1,6 @@
 body{
-   background-color: gray;
+   background-color: black;
+   width: 1265px;
 }
 
 /* Barra de titulo*/
@@ -11,7 +12,7 @@ body{
 
 
 
-#nav01, #navbarDropdown {
+#home, #quemsomos, #servicos {
 color: white;
 text-shadow: black 0.1em 0.1em 0.2em;
 font-size: 30px;
@@ -29,7 +30,8 @@ background-image: url("img/BANNERgamer02.jpg" ) ;
 background-repeat: no-repeat;
 background-size: 100%;
 margin-top: 0px;
- padding-bottom: 300px;
+margin-bottom: 0px;
+ padding-bottom: 0px;
 }
 
 #menul{
@@ -50,6 +52,11 @@ margin-top: 0px;
    width: 100%;
    align-items: center;
 }
+#escorpo{
+   padding-bottom: 10px;
+   margin-bottom: 0px;
+   height: 840px;
+}
 
 h2{
    color: beige;
@@ -66,6 +73,12 @@ h2{
    text-shadow: black 0.1em 0.1em 0.2em;
    padding: 10px 40px 40px 40px;
 }
+.obs{
+   color: rgb(245, 245, 220);
+   font-style: italic;
+   font-size: 30px;
+   text-shadow: black 0.1em 0.1em 0.2em;
+}
 
 .fpag{
    color: beige;
@@ -76,19 +89,42 @@ h2{
    
 }
 
+/* parceiros */
+
+#parceiro{
+   background-color: aqua;
+   margin-top:0px;
+   padding-top: 10px;
+}
+#parceiro1{
+   width: 400px;
+   border-radius: 50%;
+}
+
+#parceiro2{
+   width: 200px;
+   border-radius: 50%;
+}
+#parceiro3{
+   width: 200px;
+   border-radius: 50%;
+}
 
 /* Rodapé */
 
 
 #footer{
-   background-color: gray;
+   background-color: black;
    margin-left: 20px;
    margin-bottom: 0px;
+   margin-top: 20px;
    color: aliceblue;
-   font-size: large;
 }
 
 
 #ender{
    float: left;
+}
+#contato{
+   float: right;
 }

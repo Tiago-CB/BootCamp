@@ -8,72 +8,88 @@
    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"></link>
    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  
-  
   
   <!--section Barra de navegação-->
 
 
 
   <nav class="navbar navbar-expand-lg navbar-light">
-  
+    
     <div class="container-fluid">
-   
+      
+      
       <a class="navbar-brand" href="#"><img src="img/logo.jpg" id="barranav"></a>
-   
+      
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+        
       
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          
+       
+
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           
+         
+
+          <li class="nav-item">
+          
+            
+            <a class="nav-link active" id="home" aria-current="page" href="index.html">
+             TCTECH 
+            </a>
+          
+
+          </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" id="quemsomos" href="quemsomos.html">Quem somos</a>
+          </li>
+          
+          
           <li class="nav-item">
             
-            <a class="nav-link active" id="nav01" aria-current="page" href="index.html" target="_blank">
-              TCTECH
+
+            <a class="nav-link" href="serviços.html" id="servicos" >
+               Serviços
             </a>
             
-          </li>
-          
-          <li class="nav-item"> 
-            <a class="nav-link" id="nav01" href="#">Quem somos</a>
-          </li>
-          
-          <li class="nav-item dropdown">
-          
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-              
+
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
-          
             </ul>
           
+
           </li>
+
           
           <li class="nav-item">
             <a class="nav-link disabled">Disabled</a>
           </li>
         
+
         </ul>
-          
+        
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        
+          
+          <a class="nav-link" href="https://api.whatsapp.com/send?phone=5511987802397&text=Seja bem vindo! Como posso ajudar?" target="_blank" id="servicos" >
+            (11)98780-2397
+         </a>
+        
+        
         </form>
+         
       
       </div>
          
-      
     </div>
       
   </nav>
@@ -115,7 +131,7 @@
     
     <p class="lista1">
       
-      <ul class="lista1">
+      <ul class="obs">
       
       Entre em contato e faça um orçamento sem compromisso. Solicite seu contrato de manutenção
       e fique tranquilo quanto ao desempenho de seu equipamento
@@ -127,30 +143,37 @@
   
   </div>
 
+  <!--Parceiros-->
+  
   <section id="parceiros"></section>
-  <div class="cntainer-fluid text-center margin parceiros">
+  
+  <div class="cntainer-fluid text-center margin parceiros" id="parceiro">
+    
     <h3>Parceiros</h3>
+    
     <div class="container">
+    
       <div class="row">
+    
         <div class="col-lg-4">
-          <img src="" alt="img parceiro1">
+          <img src="img/cover_dio.jpg" alt="img parceiro1" id="parceiro1">
         </div>
         <div class="col-lg-4">
-          <img src="" alt="img parceiro2">
+          <img src="img/vwkC1QPP_400x400.jpg" alt="img parceiro2" id="parceiro2">
         </div>
         <div class="col-lg-4">
-          <img src="" alt="img parceiro3">
+          <img src="img/índice.png" alt="img parceiro3" id="parceiro3">
         </div>
+    
       </div>
+    
     </div>
-  </div>
-
  
 
   <!--Rodapé-->
   
 
-   <footer id="footer">
+  <footer id="footer">
     
 
     <p id="ender">Rua Candel, 601- Jardim Presidente Dutra - Guarulhos - SP - 07171-430</p>
